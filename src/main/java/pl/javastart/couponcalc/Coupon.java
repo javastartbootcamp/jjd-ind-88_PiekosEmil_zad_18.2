@@ -3,7 +3,7 @@ package pl.javastart.couponcalc;
 public class Coupon {
 
     private final Category category;
-    private final int discountValueInPercents;
+    private int discountValueInPercents;
 
     public Coupon(Category category, int discountValueInPercents) {
         this.category = category;
