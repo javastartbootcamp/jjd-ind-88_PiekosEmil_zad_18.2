@@ -3,7 +3,7 @@ package pl.javastart.couponcalc;
 public class Product {
 
     private final String name;
-    private final double price;
+    private double price;
     private final Category category;
 
     public Product(String name, double price, Category category) {
